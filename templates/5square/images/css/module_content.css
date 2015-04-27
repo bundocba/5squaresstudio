@@ -1,0 +1,213 @@
+
+.md-left{
+  padding: 0;
+  margin: 0;
+  padding-right: 15px;
+ 
+}
+.md-right{
+  padding: 0;
+  margin: 0;
+
+}
+.md-content ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.md-left ,.md-right{
+  max-height: 280px;
+}
+
+.ct-left ul >li,.ct-right ul >li{
+   max-height: 280px;
+   min-height: 280px;
+   background-color: #FFFFFF;
+   padding: 30px;
+}
+.ct-left ul >li div.moduleItemIntrotext,.ct-right ul >li div.moduleItemIntrotext{
+  height: 180px;
+}
+.ct-left ul >li a.moduleItemTitle,.ct-right ul >li a.moduleItemTitle{
+  font-family: 'Century Gothic';
+  font-size: 18px;
+  color: #86754d;
+  text-transform: uppercase;
+  font-weight: bold;
+  
+}
+.ct-left ul >li .moduleItemIntrotext,.ct-right ul >li .moduleItemIntrotext{
+  margin-top: 15px;
+  font-size: 12px;
+  color: #919191;
+  font-weight: 400;
+  font-family: 'Century Gothic';
+  line-height: 20px !important;
+}
+.ct-image-detail a img{
+  max-height: 120px;
+  max-width: 120px;
+}
+.ct-image-detail {
+  top: 0px;
+  position: relative;
+}
+.more-ct{
+    width: 50px;
+    height: 24px;
+    float: right;
+    background-color: #F7F7F7;
+    text-align: center;
+    position: relative;
+    right: -29px;
+    top: 5px;
+}
+.more-ct a{
+ color: #86754d;
+ font-weight: bold;
+}
+
+.content-main ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.content-main ul a li{
+  width: 311px;
+  height: 288px;
+  margin-right: 14px;
+  margin-bottom: 15px;
+  background-color: #F4F4F4;
+  border: 1px solid white;
+  float: left;
+}
+.content-main ul a li:hover ,.content-main ul a li:active{
+   background-color: #919191;
+
+}
+.content-main ul a li:hover div p ,.content-main ul a li:active div p{
+  color: white;
+  font-weight: bold;
+}
+.content-main ul a li div.moduleItemIntrotext{
+  position: relative;
+}
+.content-main ul a li .title-product{
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.content-main ul a li .title-product p{
+  font-size: 14px;
+  font-family: 'Century Gothic';
+  color: #86754d;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.ct-image-detail-product{
+    position: relative;
+    height: 105px;
+    width: 100%;
+    float: right;
+    top: 114px;
+    
+
+}
+.ct-image-detail-product p img{
+  max-width: 135px;
+  max-height: 90px;
+  position: absolute;
+  bottom: 30px;
+  right: 25px;
+  margin: 0;
+}
+.content-main ul li div.moduleItemIntrotext p img{border: none !important;}
+
+.Clientele{
+  font-family: 'Century Gothic'!important;
+  border: 1px solid white;
+  background-color: #F4F4F4;
+  min-height: 335px;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.Clientele div >h3{
+  padding-left: 15px !important;
+  font-size: 18px !important;
+  color: #86754d !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  padding-bottom: 20px !important;
+
+}
+.Clientele div >h4{
+ 
+  font-size: 14px !important;
+  color: #919191 !important;
+  font-weight: bold !important;
+}
+.Clientele div >p{
+ 
+  font-size: 14px !important;
+  color: #919191 !important;
+  line-height: 0px !important;
+}
+@media (min-width:768px) and (max-width:959px) {
+    .md-left{
+      padding-right: 0;
+      margin-bottom: 10px;
+    }
+}
+
+@media (min-width:480px) and (max-width: 767px){
+ 
+    .md-left{
+      padding-right: 0;
+      margin-bottom: 10px;
+    }
+    .content-main ul a li {
+      width: 220px;
+      height: 220px;
+      margin-right: 14px;
+      margin-bottom: 15px;
+      background-color: #F4F4F4;
+      border: 1px solid white;
+      float: left;
+    }
+    .ct-image-detail-product p img {
+      max-width: 77px;
+      max-height: 50px;
+      position: absolute;
+      bottom: 85px;
+      right: 8px;
+      margin: 0;
+    }
+}
+
+@media (min-width:320px) and (max-width: 479px){
+  
+  .md-left{
+      padding-right: 0;
+      margin-bottom: 10px;
+    }
+    .md-left, .md-right {
+      max-height: 320px;
+    }
+    .ct-left ul >li, .ct-right ul >li {
+      max-height: 300px;
+      min-height: 320px;
+      background-color: #FFFFFF;
+      padding: 30px;
+    }
+    .more-ct {
+      width: 50px;
+      height: 24px;
+      float: right;
+      background-color: #F7F7F7;
+      text-align: center;
+      position: relative;
+      right: -29px;
+      top: 47px;
+    }
+
+}

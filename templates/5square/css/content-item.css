@@ -1,0 +1,230 @@
+.content-item{
+	
+	width: 68%;
+	/*float: left;*/
+	margin: 0 auto;
+	padding: 0;
+}
+.content-item .left{
+	float: left;padding: 0;
+}
+.content-item .left .detail-prod{
+	background-color: white;
+	margin-right: 15px;
+	float: left;
+	padding: 30px;
+	
+	min-height: 335px;
+	min-width: 455px;
+}
+.content-item .left .detail-prod p{
+	color: #919191;
+	font-size: 12px;
+	font-family: 'Century Gothic';
+	text-align: justify;
+	line-height: 24px;
+	font-weight:100;
+}
+.content-item >.right{
+	padding: 0;
+	float: left;
+}
+.content-item .right .detail-title{
+	  width: 140%;
+	  background-color: #919191;
+	  float: left;
+	  /* padding: 35px; */
+	  text-align: center;
+	  vertical-align: middle;
+	  padding-top: 30px;
+	  max-width: 150px;
+	  min-height: 135px;
+}
+.detail-320px{
+	height: 40px;
+	padding-left: 30px;
+	padding-top: 20px;
+	display:none;
+	background-color: white;
+}
+.detail-320px p{
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#86754D;
+	font-size:18px;
+}
+.content-item .right .detail-title p{
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Century Gothic';
+}
+
+/* content-item-categories*/
+.product-item-categories{
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+  	padding-bottom: 20px;
+}
+.product-item-categories:last-child{
+	border-bottom: none;
+}
+.product-item-categories .product-item-categories-title{
+	height: 40px;
+	width: 100%;
+}
+.r-title{
+	float: left;
+	
+	
+}
+.product-item-categories-title p.r-title{
+	color: #86754d !important;
+	font-size: 14px !important;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+.r-icon img{
+	max-width: 30px;
+	max-height: 30px;
+	float: right;
+}
+.product-item-categories-introtext p{
+	color: #919191;
+	font-size: 12px;
+	font-family: 'Century Gothic';
+
+}
+
+@media (min-width:768px) and (max-width:959px) {
+   .content-item {
+	  width: 90%;
+	  margin: 0 auto;
+	  padding: 0;
+	}
+	.content-item >.right {
+	  padding-left: 15px;
+	}
+}
+
+@media (min-width:480px) and (max-width: 767px){
+     .content-item .left {
+	  float: left;
+	  width: 100%;
+	  padding: 0;
+	}
+	 .content-item {
+		width: 100%;
+		margin-right: -15px;
+		margin-left: -15px;
+
+	}
+	.content-item .left .detail-prod {
+	  background-color: white;
+	  margin-right: 15px;
+	  float: left;
+	  padding: 30px;
+	  min-height: 335px;
+	  min-width: 97%;
+	}
+	.content-item .right .detail-title p {
+	  color: #ffffff;
+	  font-size: 15px;
+	  font-weight: bold;
+	  text-transform: uppercase;
+	  font-family: 'Century Gothic';
+	}
+	.detail-320px-mall{
+		display:none;
+		
+	}
+	.detail-320px{
+		display:block;
+		width: 97%;
+	}
+	.detail-320px p {
+	  text-transform: uppercase;
+	  font-weight: bold;
+	  color: #86754D;
+	  font-size: 18px;
+	  text-align: left;
+	}
+	.detail-320px-mall-ct{
+		display:none;
+		
+	}
+	.detail-320px-ct{
+		display:block;
+		width: 97%;
+		padding: 20px;
+	  width: 428px;
+	  height: 35px;
+	  padding: 20px;
+	  margin-left: 15px;
+	  background-color: white;
+	}
+	.detail-320px-ct p {
+	  text-transform: uppercase;
+	  font-weight: bold;
+	  color: #86754D;
+	  font-size: 18px;
+	  text-align: left;
+	}
+}
+
+@media (min-width:320px) and (max-width: 479px){
+ 	.content-item {
+	  width: 100%;
+	  margin: 0 auto;
+	  padding: 0;
+	}
+	.content-item .col-xs-9 ,.content-item .col-xs-3{
+		width: 100%;
+	}
+	.content-item .left .detail-prod {
+	  background-color: white;
+	  margin-right: 15px;
+	  float: left;
+	  padding: 30px;
+	  min-height: 335px;
+	   min-width: 100%; 
+	}
+	.detail-320px-mall{
+		display:none;
+		
+	}
+	.detail-320px{
+		display:block;
+		width: 273px;
+	}
+	.detail-320px p {
+	  text-transform: uppercase;
+	  font-weight: bold;
+	  color: #86754D;
+	  font-size: 18px;
+	  text-align: left;
+	}
+	.detail-320px-mall-ct{
+		display:none;
+		
+	}
+	.detail-320px-ct{
+	  display: block;
+	  padding: 20px;
+	  width: 261px;
+	  height: 35px;
+	  padding: 10px;
+	  margin-left: 15px;
+	  background-color: white;
+	}
+	.detail-320px-ct p {
+	  text-transform: uppercase;
+	  font-weight: bold;
+	  color: #86754D;
+	  font-size: 18px;
+	  text-align: left;
+	}
+}
+

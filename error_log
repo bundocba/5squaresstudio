@@ -1,0 +1,2 @@
+[07-Apr-2015 15:43:10 Asia/Singapore] PHP Fatal error:  Using $this when not in object context in /home/futuresg/public_html/5squaresstudio_site/templates/5square/html/mod_k2_content/r-content-item-category/default.php on line 7
+[23-Apr-2015 17:07:06 Asia/Singapore] PHP Parse error:  syntax error, unexpected ';', expecting ':' in /home/futuresg/public_html/5squaresstudio_site/templates/5square/html/com_k2/item-work/item.php on line 58

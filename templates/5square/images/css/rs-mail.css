@@ -1,0 +1,249 @@
+.rs-mail-and-about {
+	margin-bottom: 115px;
+}
+.rs-mail-and-about .rs-mail-and-about-left{
+	
+	
+	padding-right: 10px;
+	
+}
+.rs-mail-and-about .rs-mail-and-about-right{
+	
+	padding-left: 5px;
+	font-family:'Century Gothic';
+
+}
+.rs-mail-and-about-left .moduletablers-mail{
+	background-color: white;
+	float: left;
+	padding: 20px;
+	min-height: 380px;
+	  width: 100%;
+
+}
+.rs-mail-and-about-right .moduletabletestimonials{
+	background-color: white;
+	float: left;
+	padding: 25px;
+	padding-top: 40px;
+	min-height: 380px;
+	  overflow: hidden;
+}
+.moduletabletestimonials >.more-ct{
+  width: 50px;
+  height: 24px;
+  float: right;
+  background-color: #F7F7F7;
+  text-align: center;
+  position: relative;
+  right: -23px;
+  top: 64px;
+}
+.moduletabletestimonials p.title-test{
+  color: #86754d;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family:'Century Gothic';
+  margin-bottom: 20px;
+
+}
+.rs-mail-and-about >div{
+	padding: 0;
+	
+}
+.rs-mail-left div ,.rs-mail-right div{
+	margin-bottom: 20px;
+}
+.rs-mail-left div.rsform-block-contact{
+	color: #86754d;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.rs-mail-left div.rsform-block-labelmail,.rs-mail-left div.rsform-block-lableaddress,.rs-mail-left div.rsform-block-labelweb{
+	color: #919191;
+	font-size: 12px;
+	
+}
+.rs-mail-left div.rsform-block-labelmail div p{
+	  background: url(images/icon/2.png)no-repeat;
+	  height: 15px;
+	  width: 15px;
+	  float: left;
+	  margin: 0;
+	  margin-right: 10px;
+	    margin-top: 2px;
+}
+.rs-mail-left div.rsform-block-lableaddress div p{
+	  background: url(images/icon/1.png)no-repeat;
+	  height: 15px;
+	  width: 15px;
+	  float: left;
+	  margin: 0;
+	  margin-right: 10px;
+	    margin-top: 2px;
+}
+.rs-mail-left div.rsform-block-labelweb div p{
+	  background: url(images/icon/3.png)no-repeat;
+	  height: 15px;
+	  width: 15px;
+	  float: left;
+	  margin: 0;
+	  margin-right: 10px;
+	    margin-top: 2px;
+}
+.rs-mail-right div.rsform-block-lablehelp{
+	color: #86754d;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.rs-mail-right div.rsform-block-email div input{
+	width: 240px;
+	opacity: 0.2;
+	padding-left: 10px;
+	font-family:'Century Gothic';
+	font-size: 12px;
+	font-style:italic;
+}
+.rs-mail-right div div textarea{
+	width: 240px;
+	opacity: 0.2;
+	padding-left: 10px;
+	font-family:'Century Gothic';
+	font-size: 12px;
+	font-style:italic;
+}
+.rs-mail-right .rsform-block-send{
+	width: 50%;
+	float: left;
+}
+.rs-mail-right .rsform-block-reset{
+	width: 42%;
+	float: left;
+}
+.rs-mail-right .rsform-block-reset div input{
+	width: 90px;
+	height: 30px;
+	background-color: #919191;
+	float: left;
+	border: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.rs-mail-right .rsform-block-send div input{
+	width: 145px;
+	height: 30px;
+	background-color: #87754D;
+	float: left;
+	border: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.rsform-block-send div,.rsform-block-reset div{
+	margin: 0;
+}
+@media (min-width:768px) and (max-width:959px) {
+	.rs-mail-and-about-left .moduletablers-mail {
+	  background-color: white;
+	  float: left;
+	  padding: 20px;
+	  min-height: 380px;
+	  width: 99%;
+	  margin-left: 10px;
+	  
+	}
+	.rs-mail-and-about-right .moduletabletestimonials {
+	  background-color: white;
+	  float: left;
+	  padding: 25px;
+	  padding-top: 40px;
+	  min-height: 380px;
+	  margin-top: 20px;
+	  width: 100%;
+	    padding-right: 0;
+	}
+	.rs-mail-right .rsform-block-reset {
+	  width: 30%;
+	  float: left;
+	}
+	.moduletabletestimonials >.more-ct {
+	  width: 50px;
+	  height: 24px;
+	  float: right;
+	  background-color: #F7F7F7;
+	  text-align: center;
+	  position: relative;
+	  right: 3px;
+	  top: 64px;
+	}
+}
+@media (min-width:480px) and (max-width: 767px){
+	.rs-mail-right .rsform-block-reset {
+	  width: 60%;
+	  float: left;
+	}
+	.rs-mail-right div.rsform-block-email div input {
+	  width: 200px;
+	  opacity: 0.2;
+	  padding-left: 10px;
+	  font-family: 'Century Gothic';
+	  font-size: 12px;
+	  font-style: italic;
+	}
+	.rs-mail-right div div textarea {
+	  width: 200px;
+	  opacity: 0.2;
+	  padding-left: 10px;
+	  font-family: 'Century Gothic';
+	  font-size: 12px;
+	  font-style: italic;
+	}
+
+	.rs-mail-and-about-right .moduletabletestimonials {
+	  background-color: white;
+	  float: left;
+	  padding: 25px;
+	  padding-top: 40px;
+	  min-height: 380px;
+	  overflow: hidden;
+	  margin-left: 0;
+	  margin-top: 10px;
+	  max-width: 450px;
+	}
+	.Clientele div >h4 {
+	  font-size: 14px !important;
+	  color: #919191 !important;
+	  font-weight: bold !important;
+	  margin-bottom: 0;
+	}
+	.Clientele div >p {
+	  font-size: 12px !important;
+	  color: #919191 !important;
+	  margin: 0;
+	  line-height: 10px !important;
+	}
+}
+@media (min-width:320px) and (max-width: 479px){
+ 	.moduletabletestimonials >.more-ct {
+	  width: 50px;
+	  height: 24px;
+	  float: right;
+	  background-color: #F7F7F7;
+	  text-align: center;
+	  position: relative;
+	  right: -7px;
+	  top: 47px;
+	}
+	.rs-mail-and-about-left .moduletablers-mail {
+	  background-color: white;
+	  float: left;
+	  padding: 20px;
+	  min-height: 380px;
+	  width: 100%;
+	  margin-bottom: 10px;
+	}
+}

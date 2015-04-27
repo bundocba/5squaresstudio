@@ -1,0 +1,514 @@
+.content-work-top{
+	width: 100%;
+	background-color: white;
+	float: left;
+	min-height: 400px;
+	margin-bottom: 10px;
+}
+.top-work-slider{
+	width: 100%;
+}
+.top-work-slider ul{
+	margin: 0;
+    padding: 0;
+    max-height: 325px;  
+    margin-left: 2px;
+    overflow: hidden;
+}
+.top-work-slider ul li  {
+	display: inline-block;
+}
+.top-work-slider ul li img {
+	min-width: 316px;
+	min-height: 300px;
+  	max-height: 300px;
+
+}
+.work-slider-scroll{
+	width: 100%;
+	float: left;
+	 margin-top: 25px;
+
+}
+#silder-sroll-detail{
+	width: 47%;
+	margin: 0 auto;
+}
+#silder-sroll-detail #dt-sroll{
+	width: 73%;
+	float: left;
+	background-color: #87754D;
+	min-width: 20px;
+	min-height: 1px;
+	margin-top: 10px;
+	position: relative;
+}
+#silder-sroll-detail #dt-sroll #cube{
+	  position: absolute;
+	  width: 16px !important;
+	  height: 16px;
+	  background-color: #87754D;
+	  top: -8px !important
+}
+.work-slider-scroll span{
+	width: 60px;
+	padding: 0 15px;
+	float: left;
+}
+.work-slider-scroll span p{
+	color: #87754D;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.content-work-center{
+	width: 100%;
+	background-color: white;
+	float: left;
+	min-height: 95px;
+	
+}
+.content-work-center div >div {
+	padding-left: 0;
+}
+.content-work-center div div div{
+	background-color: #919191;
+	width: 197px;
+	height: 37px;
+	margin-top: 30px;
+}
+.content-work-center div div div p{
+	color: white;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family:'Century Gothic';
+	padding: 8px 0 0 50px;
+}
+.content-work-center div div.more div.more-detial{
+
+	float: right;
+	position: relative;
+}
+/*.more-detial-active{
+	background-color: #87754D;
+}
+.view-active{
+	background-color: #87754D;
+}*/
+.content-work-center div div.more div.more-detial:hover,.content-work-center div div.more div.more-detial:active,.content-work-center div div.view div.view-detail:hover,.content-work-center div div.view div.view-detail:active{
+	background-color:  #87754D;
+	cursor: pointer;
+}
+.content-work-center div div.more div.more-detial::before{
+	content: "";
+	float: right;
+	background: url(../images/more.png)no-repeat;
+	background-position: left;
+	z-index: 10;
+	position: absolute;
+	width: 19px;
+	height: 19px;
+	top: 9px;
+  	left: 20px;
+}
+.content-work-center div div.view  div.view-detail{
+	float: left;
+	position: relative;
+}
+.content-work-center div div.view  div.view-detail::before{
+	content: "";
+	float: left;
+	background: url(../images/view.png)no-repeat;
+	background-position: left;
+	z-index: 10;
+	position: absolute;
+	width: 19px;
+	height: 19px;
+	top: 9px;
+    left: 20px;
+	
+}
+
+.content-work-bottom{
+	width: 100%;
+	background-color: white;
+	float: left;
+	min-height: 400px;
+	margin-bottom: 60px;
+	display: none;
+}
+.show-all-image ul li{
+	display: inline-block;
+	margin-bottom: 3px;
+}
+.show-all-image ul {
+	margin: 0;
+	padding: 2px 0 2px 2px;
+
+}
+.show-all-image ul li a img{
+	min-width: 316px;
+	max-width: 316px;
+	min-height: 322px;
+	max-height: 322px;
+
+}
+.content-work-pass{
+	width: 100%;
+	background-color: white;
+	float: left;
+	min-height: 190px;
+	margin-bottom: 10px;
+	display: none;
+}
+.content-work-pass-title{
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+.content-work-pass-title p{
+	color: #919191;
+	font-size: 12px;
+	font-family:'Century Gothic';
+  	font-weight: normal;
+}
+.content-work-pass-detail{
+	float: left;
+	width: 100%;
+	margin-top: 15px;
+	margin-left: 0px;
+	
+}
+.content-work-pass-detail div{
+	
+	padding-left: 0;
+}
+.content-work-pass-detail div div{
+	
+	width: 100%;
+	width: 197px;
+ 	height: 30px;
+ 	background-color: #F4F4F4;
+ 	position: relative;
+
+}
+.content-work-pass-detail div  div.more-key input.submit{
+	position: absolute;
+    width: 34px;
+    height: 30px;
+    border: none; 
+    background: url(../images/key.png)no-repeat;
+    background-position: 50%;
+	
+}
+.content-work-pass-detail div  div.more-key input.password{
+	border: none;
+	width: 162px;
+	height: 28px;
+	background-color: #FFFFFF;
+	margin-top: 1px;
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: inherit;
+    font-style: italic;
+    margin-left: 1px;  
+   
+}
+.content-work-pass-detail div  div.more-key input.password[placeholder]{
+	color: #0A0909;
+}
+
+.content-work-pass-detail div  div.more-key{
+	float: right;
+}
+.content-work-pass-detail div  div.more-key::before{
+	/*content: "";
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background: url(../images/key.png)no-repeat;
+	right: -2px;
+ 	top: 10px;
+*/
+}
+.content-work-pass-detail div  div.more-pass{
+	float: left;
+	
+}
+.content-work-pass-detail div  div.more-pass:hover{
+	cursor: pointer;
+	background-color: #87754D;	
+}
+.content-work-pass-detail div  div.more-pass:hover p{
+	color: white;
+}
+.content-work-pass-detail div  div.more-pass::before{
+	float: left;
+	content: "";
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background: url(../images/mail.png)no-repeat;
+	left: 20px;
+ 	top: 10px;
+}
+.content-work-pass-detail div  div.more-pass p {
+	
+	padding-top: 5px;
+ 	padding-left: 46px;
+
+}
+.content-work-pass-detail div  div.more-pass p a {
+	color: #919191;
+	font-size: 12px;
+	font-family: 'Century Gothic';
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+.content-work-pass-detail div  div.more-pass p a:hover {
+	color:white;
+}
+.r-work-bottom-product{
+	
+}
+.error-key{
+	text-align:center;
+	margin-top: 50px !important;
+  	color: red;
+  	display: none;
+}
+#horiz_container_outer {
+  width: 953px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+  height: 310px;
+  margin: 5px auto;
+}
+#horiz_container {
+ width: 2875px; 
+  margin: 0px;
+  padding: 0px;
+  height: 300px;
+}
+@media (min-width:768px) and (max-width:959px) {
+	#horiz_container_outer {
+	  width: 768px;
+	  
+	}
+	#horiz_container {
+	  width: 2275px;
+	  margin: 0px;
+	  padding: 0px;
+	  height: 300px;
+	}
+   .top-work-slider ul li a img {
+	  min-width: 245px;
+	  max-height: 250px;
+	  max-width: 247px;
+	}
+	.top-work-slider ul {
+	  margin: 0;
+	  padding: 0;
+	  max-height: 250px;
+	  margin-left: 3px;
+	}
+	#silder-sroll-detail {
+	  width: 60%;
+	  margin: 0 auto;
+	}
+	.show-all-image ul li a img {
+	  min-width: 246px;
+	  max-width: 246px;
+	  min-height: 246px;
+	  max-height: 246px;
+	}
+	.show-all-image ul li {
+	  display: inline-block;
+	  margin-bottom: 3px;
+	}
+}
+
+@media (min-width:480px) and (max-width: 767px){
+	#horiz_container_outer {
+	  width: 480px;
+	  overflow-x: hidden;
+	  overflow-y: hidden;
+	  position: relative;
+	  height: 152px;
+	  margin: 5px auto;
+	  
+	}
+	#horiz_container {
+	  width: 1878px;
+	  margin: 0px;
+	  padding: 0px;
+	  height: 150px;
+	  margin-left: 1px;
+	}
+	.top-work-slider ul li img {
+	  max-height: 150px;
+	  max-width: 150px;
+	  min-height: 150px;
+	  min-width: 150px;
+	}
+	.work-slider-scroll {
+	  width: 100%;
+	  float: left;
+
+	}
+	#silder-sroll-detail {
+	  width: 70%;
+	  margin: 0 auto;
+	}
+	.work-slider-scroll span p {
+	  color: #87754D;
+	  font-size: 12px;
+	  text-transform: uppercase;
+	}
+	#silder-sroll-detail #dt-sroll {
+	  width: 60%;
+	  float: left;
+	  background-color: #87754D;
+	  min-width: 20px;
+	  min-height: 1px;
+	  margin-top: 10px;
+	  position: relative;
+	}
+	.content-work-top {
+	  width: 100%;
+	  background-color: white;
+	  float: left;
+	  min-height: 250px;
+	  margin-bottom: 10px;
+	}
+	.show-all-image ul li a img {
+	 min-width: 150px;
+	  max-width: 150px;
+	 min-height: 150px;
+	  max-height: 150px;
+	}
+	.content-work-bottom {
+	  width: 100%;
+	  background-color: white;
+	  float: left;
+	  min-height: 400px;
+	  margin-bottom: 0px; 
+	  display: none;
+	}
+	
+	.content-work-top {
+	  width: 100%;
+	  background-color: white;
+	  float: left;
+	  min-height: 240px;
+	  margin-bottom: 10px;
+	}
+	     
+}
+
+@media (min-width:320px) and (max-width: 479px){
+	 #silder-sroll-detail {
+	  width: 90%;
+	  margin: 0 auto;
+	}
+	#silder-sroll-detail #dt-sroll {
+	  width: 58%;
+	  float: left;
+	  background-color: #87754D;
+	  min-width: 20px;
+	  min-height: 1px;
+	  margin-top: 10px;
+	  position: relative;
+	}
+	#horiz_container_outer {
+	  width: 320px;
+	  overflow-x: hidden;
+	  overflow-y: hidden;
+	  position: relative;
+	  height: 310px;
+	  margin: 5px auto;
+	}
+	.content-work-center div div div {
+	  background-color: #919191;
+	  width: 135px;
+	  height: 37px;
+	  margin-top: 30px;
+	}
+	.content-work-center div div.view div.view-detail::before {
+	  content: "";
+	  float: left;
+	  background: url(../images/view.png)no-repeat;
+	  background-position: left;
+	  z-index: 10;
+	  position: absolute;
+	  width: 19px;
+	  height: 19px;
+	  top: 9px;
+	  left: 9px;
+	}
+	.content-work-center div div.more div.more-detial::before {
+	  content: "";
+	  float: right;
+	  background: url(../images/more.png)no-repeat;
+	  background-position: left;
+	  z-index: 10;
+	  position: absolute;
+	  width: 19px;
+	  height: 19px;
+	  top: 9px;
+	  left: 9px;
+	}
+	.content-work-center div div div p {
+	  color: white;
+	  font-size: 10px;
+	  text-transform: uppercase;
+	  font-family: 'Century Gothic';
+	  padding: 10px 0 0 30px;
+	}
+	.content-work-pass-detail div div {
+	  width: 100%;
+	  width: 135px;
+	  height: 30px;
+	  background-color: #F4F4F4;
+	  position: relative;
+	}
+	.content-work-pass-detail div div.more-key input.password {
+	  border: none;
+	  width: 101px;
+	  height: 28px;
+	  background-color: #FFFFFF;
+	  margin-top: 1px;
+	  padding-left: 10px;
+	  font-size: 12px;
+	  font-weight: inherit;
+	  font-style: italic;
+	  margin-left: 1px;
+	}
+	.content-work-pass-detail div div.more-pass::before {
+	  float: left;
+	  content: "";
+	  position: absolute;
+	  width: 30px;
+	  height: 30px;
+	  background: url(../images/mail.png)no-repeat;
+	  left: 8px;
+	  top: 10px;
+	}
+	.content-work-pass-detail div div.more-pass p {
+	  padding-top: 5px;
+	  padding-left: 30px;
+	}
+	.content-work-pass-detail div div.more-pass p a {
+	  color: #919191;
+	  font-size: 10px;
+	  font-family: 'Century Gothic';
+	  text-transform: uppercase;
+	  text-decoration: none;
+	}
+}
+.modal{
+	display: block !important;
+	overflow: inherit !important;
+	position: inherit !important;
+}

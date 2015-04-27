@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset
+		name="advanced"
+		label="advanced"
+		description="advanced">
+
+		<field
+			name="password" type="text"
+			label="Password"
+			description="Password"
+			
+		/>
+	</fieldset>
+</config>

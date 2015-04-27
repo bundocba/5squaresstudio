@@ -1,0 +1,174 @@
+.detail-title >.componentheading{
+	  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Century Gothic';
+}
+.detail-prod-contact-form {
+	font-family: 'Century Gothic';
+	background-color: white;
+	margin-right: 15px;
+	float: left;
+	padding: 30px;
+	padding-top: 15px;
+	padding-bottom: 0;
+	min-height: 335px;
+	min-width: 455px;
+}
+
+
+.detail-prod-contact-form >div{
+	/*margin-bottom: 20px;*/
+}
+.detail-prod-contact-form>div div {
+	color: #919191;
+	font-size: 12px;
+	 margin-bottom: 20px;
+}
+/*.detail-prod-contact-form>div div.rsform-block-capchat  {
+	
+	 margin-bottom: 0;
+}*/
+.rsform-block-labelmail >div p{
+  background: url(images/icon/2.png)no-repeat;
+  height: 15px;
+  width: 15px;
+  float: left;
+  margin: 0;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+.rsform-block-lableaddress >div p{
+	background: url(images/icon/1.png)no-repeat;
+  height: 15px;
+  width: 15px;
+  float: left;
+  margin: 0;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+.rsform-block-labelweb >div p{
+	background: url(images/icon/3.png)no-repeat;
+  height: 15px;
+  width: 15px;
+  float: left;
+  margin: 0;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+.detail-prod-contact-form .rsform-block-labelweb{
+	height: 60px;
+	border-bottom: 1px solid #ccc;
+}
+.detail-prod-contact-form .rsform-block-contactform{
+	margin: 30px 0 30px 0;
+}
+.detail-prod-contact-form .rsform-block-contactform div{
+	color: #86754d;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.bottom-contact-form div div div input{
+	  font-family: 'Century Gothic';
+	  font-size: 12px;
+	  line-height: inherit;
+	  width: 100%;
+	  height: 30px;
+	 
+	  opacity: 0.2;
+	  padding-left: 10px;
+	  font-style: italic;
+}
+.bottom-contact-form div div div select{
+	font-family: 'Century Gothic';
+	  font-size: 12px;
+	  line-height: inherit;
+	  width: 100%;
+	  height: 30px;
+	  opacity: 0.2;
+	  padding-left: 10px;
+	  font-style: italic;
+}
+.bottom-contact-form div div div textarea{
+	font-family: 'Century Gothic';
+	  font-size: 12px;
+	  line-height: inherit;
+	  width: 100%;
+	  min-height: 130px;
+	
+	  opacity: 0.2;
+	  padding-left: 10px;
+	  font-style: italic;
+}
+.rsform-block-capchat{
+	margin-bottom: 0;
+	height: 10px;
+}
+.rsform-block-capchat div span
+{
+	position: relative;
+	top: -54px;
+}
+.rsform-block-capchat div input{
+	position: relative !important; 
+	top: -35px;
+}
+.rsform-block-capchat div img{
+  height: 30px;
+  width: 65px;
+  float: right;
+  position: relative;
+  top: -5px;
+  opacity: 0.3;
+}
+.bottom-contact-form div .rsform-block-reset{width: 76px;float: left;}
+.bottom-contact-form div .rsform-block-reset div input{
+  width: 75px;
+  height: 30px;
+  background-color: #919191;
+  float: left;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-style: normal;
+  opacity: 1;
+}
+.bottom-contact-form div .rsform-block-send {width: 125px;float: left;}
+.bottom-contact-form div .rsform-block-send div input{
+  width: 122px;
+  height: 30px;
+  background-color: #87754D;
+  float: right;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  opacity: 1;
+}
+.bottom-contact-form .right{
+	padding-left: 0;
+}
+@media (min-width:768px) and (max-width:959px) {
+   .bottom-contact-form .right {
+	   padding-left: 15px; 
+	}
+}
+
+@media (min-width:480px) and (max-width: 767px){
+     .bottom-contact-form .right {
+	   padding-left: 15px;
+	}
+	.content-item .right .detail-title {
+	  margin-top: 20px;
+	}
+}
+
+@media (min-width:320px) and (max-width: 479px){
+ 	.rsformrs-mail form .col-xs-6 {
+ 		width: 100%;
+ 	}
+}
+
